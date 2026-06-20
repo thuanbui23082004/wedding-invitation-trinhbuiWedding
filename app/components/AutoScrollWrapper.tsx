@@ -14,7 +14,7 @@ export default function AutoScrollWrapper({
     const posRef = useRef(0);
 
     // Tốc độ scroll (px/frame) — ~0.4px mỗi 16ms ≈ 25px/giây
-    const SPEED = 0.4;
+    const SPEED = 2;
     // Sau bao lâu không tương tác thì tự chạy lại (ms)
     const IDLE_MS = 3000;
 
