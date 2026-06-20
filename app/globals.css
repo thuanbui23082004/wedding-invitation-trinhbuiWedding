@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-wine: #a31d1d;
+    --color-gold: #ffbf89;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color-wine);
+    color: #f3e3c3;
+    overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #3a060c;
+}
+::-webkit-scrollbar-thumb {
+    background: #d4af6a;
+    border-radius: 3px;
+}
+
+/* Decorative repeating background pattern (subtle damask-like dots) */
+.bg-damask {
+    background-image:
+        radial-gradient(
+            circle at 20% 20%,
+            rgba(212, 175, 106, 0.06) 0%,
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at 80% 30%,
+            rgba(212, 175, 106, 0.05) 0%,
+            transparent 40%
+        ),
+        radial-gradient(
+            circle at 50% 80%,
+            rgba(212, 175, 106, 0.06) 0%,
+            transparent 45%
+        );
+}
+
+.section-divider {
+    background: linear-gradient(90deg, transparent, #d4af6a, transparent);
+    height: 1px;
+}
+
+.text-gold-gradient {
+    background: linear-gradient(180deg, #f3dd9a 0%, #d4af6a 50%, #b8924c 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.frame-corner {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border: 2px solid #d4af6a;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(243, 227, 195, 0.45);
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* hide number input spin */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
