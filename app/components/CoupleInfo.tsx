@@ -40,12 +40,12 @@ export default function CoupleInfo() {
             >
                 <div className="border-r border-gold/30 pr-2">
                     <p className="font-body  text-xs uppercase tracking-wider text-gold-200/70">
-                        Ông Bà
+                        Nhà trai
                     </p>
                     <p className="mt-1 font-serif text-sm font-semibold leading-relaxed text-gold-100 sm:text-base">
-                        {groom.father}
+                        Ông: {groom.father}
                         <br />
-                        {groom.mother}
+                        Bà: {groom.mother}
                     </p>
                     <p
                         className="mt-2 font-body text-[11px] leading-snug text-gold-200/70 sm:text-xs"
@@ -56,12 +56,12 @@ export default function CoupleInfo() {
                 </div>
                 <div className="pl-2">
                     <p className="font-body text-xs uppercase tracking-wider text-gold-200/70">
-                        Ông Bà
+                        Nhà gái
                     </p>
                     <p className="mt-1 font-serif text-sm font-semibold leading-relaxed text-gold-100 sm:text-base">
-                        {bride.father}
+                        Ông:{bride.father}
                         <br />
-                        {bride.mother}
+                        Bà: {bride.mother}
                     </p>
                     <p
                         className="mt-2 font-body text-[11px] leading-snug text-gold-200/70 sm:text-xs"

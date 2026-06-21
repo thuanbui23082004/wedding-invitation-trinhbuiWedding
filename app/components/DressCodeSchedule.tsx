@@ -65,7 +65,7 @@ export default function DressCodeSchedule() {
                             whileInView={{ opacity: 1, x: 0 }}
                             viewport={{ once: true, margin: "-40px" }}
                             transition={{ duration: 0.5, delay: i * 0.08 }}
-                            className="relative flex items-center gap-4"
+                            className="relative flex min-h-20 items-start gap-4"
                         >
                             <span
                                 className="w-16 shrink-0 text-right font-serif text-base font-semibold text-gold-100 sm:w-20"
@@ -84,7 +84,7 @@ export default function DressCodeSchedule() {
                                     alt=""
                                     width={128}
                                     height={80}
-                                    className="h-auto w-[92px] -rotate-12 scale-x-[-1] sm:w-[112px] md:w-[128px]"
+                                    className="h-16 w-auto -rotate-12 scale-x-[-1] sm:h-20 md:h-20"
                                 />
                             )}
                         </motion.li>

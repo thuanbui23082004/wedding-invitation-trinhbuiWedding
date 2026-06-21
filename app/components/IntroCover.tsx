@@ -145,11 +145,11 @@ export default function IntroCover({ onOpen }: { onOpen: () => void }) {
                 {/* Tên cô dâu chú rể */}
                 <div className="relative z-10">
                     <h1 className="font-serif text-4xl font-semibold text-[#e8c97a] drop-shadow-sm">
-                        Tuấn Kiệt
+                        {weddingConfig.groom.shortName}
                     </h1>
                     <p className="my-1 text-xl text-[#c9963a]/80">&amp;</p>
                     <h2 className="font-serif text-4xl font-semibold text-[#e8c97a] drop-shadow-sm">
-                        Thanh Hà
+                        {weddingConfig.bride.shortName}
                     </h2>
                 </div>
 
@@ -167,8 +167,8 @@ export default function IntroCover({ onOpen }: { onOpen: () => void }) {
                         fontFamily: '"Baskerville", serif',
                     }}
                 >
-                    {weddingConfig.ceremony.day} tháng{" "}
-                    {weddingConfig.ceremony.month},{" "}
+                    {weddingConfig.reception.day} tháng{" "}
+                    {weddingConfig.reception.month},{" "}
                     {weddingConfig.ceremony.year}
                 </p>
 

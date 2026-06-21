@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "Tuấn Kiệt & Thanh Hà | Thiệp Cưới",
+    title: "Mạnh Cường & Thanh Thúy | Thiệp Cưới",
     description:
-        "Thiệp cưới online của Tuấn Kiệt & Thanh Hà - Trân trọng kính mời quý khách đến chung vui cùng gia đình chúng tôi.",
+        "Thiệp cưới online của Mạnh Cường & Thanh Thúy - Trân trọng kính mời quý khách đến chung vui cùng gia đình chúng tôi.",
 };
 
 export const viewport = {

@@ -226,7 +226,7 @@ export default function Gallery() {
                     className="mt-2 font-serif text-2xl font-semibold text-gold sm:text-3xl"
                     style={{ fontFamily: '"Baskerville", serif' }}
                 >
-                    {weddingConfig.reception.partyTime}
+                    {weddingConfig.reception.welcomeTime}
                 </p>
 
                 <div className="mt-6 flex items-center justify-center gap-4 sm:gap-6">
@@ -234,26 +234,26 @@ export default function Gallery() {
                         className="font-body text-xs uppercase tracking-wider text-gold-200/70"
                         style={{ fontFamily: '"Baskerville", serif' }}
                     >
-                        {weddingConfig.ceremony.weekday}
+                        {weddingConfig.reception.weekday}
                     </p>
                     <div className="h-10 w-px bg-gold/40" />
                     <p
                         className="font-serif text-4xl font-bold text-gold sm:text-5xl"
                         style={{ fontFamily: '"Baskerville", serif' }}
                     >
-                        {weddingConfig.ceremony.day}
+                        {weddingConfig.reception.day}
                     </p>
                     <div className="h-10 w-px bg-gold/40" />
                     <p
                         className="font-body text-xs uppercase tracking-wider text-gold-200/70"
                         style={{ fontFamily: '"Baskerville", serif' }}
                     >
-                        Tháng {weddingConfig.ceremony.month}
+                        Tháng {weddingConfig.reception.month}
                     </p>
                 </div>
 
                 <p className="mt-3 font-body text-xs italic text-gold-200/60">
-                    ({weddingConfig.ceremony.lunarDate})
+                    ({weddingConfig.reception.lunarDate})
                 </p>
 
                 <div className="mx-auto mt-6 flex max-w-xs items-center justify-around">

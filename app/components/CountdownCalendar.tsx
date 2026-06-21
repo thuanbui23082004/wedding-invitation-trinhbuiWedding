@@ -30,8 +30,8 @@ export default function CountdownCalendar() {
     const { ceremony, reception } = weddingConfig;
     const countdown = useCountdown(weddingConfig.eventDateTimeISO);
     const year = parseInt(ceremony.year, 10);
-    const month = parseInt(ceremony.month, 10);
-    const weddingDay = parseInt(ceremony.day, 10);
+    const month = parseInt(reception.month, 10);
+    const weddingDay = parseInt(reception.day, 10);
     const rows = buildCalendarGrid(year, month);
 
     const handleAddToCalendar = () => {
