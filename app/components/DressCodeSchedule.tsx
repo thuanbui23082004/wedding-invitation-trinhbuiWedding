@@ -11,7 +11,7 @@ export default function DressCodeSchedule() {
     return (
         <section className="relative bg-transparent bg-damask px-5 py-12">
             {/* Dress code */}
-            <motion.div
+            {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
@@ -38,7 +38,7 @@ export default function DressCodeSchedule() {
                         />
                     ))}
                 </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* Schedule timeline */}
             <motion.div

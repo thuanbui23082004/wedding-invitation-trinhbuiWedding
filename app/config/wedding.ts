@@ -35,8 +35,8 @@ export const weddingConfig = {
         lunarDate: "Tức ngày 20/05 năm Bính Ngọ",
         venueName: "Nhà văn hóa thôn Đồng Tràm Tây, xã Xuân Phú, TP.Đà Nẵng",
         mapEmbedUrl:
-            "https://www.google.com/maps?q=Vinhomes+Co+Loa+Dong+Anh+Ha+Noi&output=embed",
-        mapLink: "https://maps.app.goo.gl/",
+            "https://www.google.com/maps?q=15.798986,108.325950&z=17&output=embed",
+        mapLink: "https://www.google.com/maps?q=15.798986,108.325950",
     },
     // ISO datetime used for the countdown timer — keep in sync with ceremony fields above
     eventDateTimeISO: "2026-07-04T10:30:00+07:00",
@@ -58,15 +58,15 @@ export const weddingConfig = {
     heroImage: "/images/hero.jpg",
     bankInfo: {
         groomBank: {
-            bankName: "Vietcombank",
+            bankName: "LB Bank",
             accountName: "HUỲNH MẠNH CƯỜNG",
-            accountNumber: "0123456789",
+            accountNumber: "0906438943",
             qrImage: "/images/qrtrai.png",
         },
         brideBank: {
-            bankName: "Techcombank",
+            bankName: "MB Bank",
             accountName: "LÊ THỊ THANH THÚY",
-            accountNumber: "9876543210",
+            accountNumber: "0933594345",
             qrImage: "/images/qrgai.png",
         },
     },
