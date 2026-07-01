@@ -23,6 +23,7 @@ export const weddingConfig = {
         weekday: "Thứ Ba",
         day: "21",
         month: "07",
+
         year: "2026",
         lunarDate: "Tức ngày 8/6 năm Bính Ngọ",
     },
@@ -39,6 +40,7 @@ export const weddingConfig = {
         mapLink:
             "https://www.google.com/maps/place/16%C2%B040'47.5%22N+107%C2%B020'10.6%22E/@16.6798578,107.3337054,1041m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d16.6798578!4d107.3362803!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D",
     },
+    //sss
     // ISO datetime used for the countdown timer — keep in sync with ceremony fields above
     eventDateTimeISO: "2026-07-21T10:30:00+07:00",
     schedule: [
