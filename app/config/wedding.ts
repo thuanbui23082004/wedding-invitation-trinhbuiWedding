@@ -20,24 +20,23 @@ export const weddingConfig = {
     ceremony: {
         location: "Lễ Vu Quy được cử hành tại tư gia",
         time: "09:00",
-        weekday: "Thứ Ba",
-        day: "21",
+        weekday: "Chủ Nhật",
+        day: "19",
         month: "07",
         year: "2026",
-        lunarDate: "Tức ngày 8/6 năm Bính Ngọ",
+        lunarDate: "Tức ngày 6/6 năm Bính Ngọ",
     },
     reception: {
         welcomeTime: "10:30",
         partyTime: "11:00",
-        weekday: "Thứ Ba",
-        day: "21",
+        weekday: "Chủ Nhật",
+        day: "19",
         month: "07",
-        lunarDate: "Tức ngày 8/6 năm Bính Ngọ",
-        venueName: "Đội 5, TDP Vĩnh An, phường Phong Dinh, TP. Huế",
+        lunarDate: "Tức ngày 6/6 năm Bính Ngọ",
+        venueName: "Tổ 7, thôn Hưng Mỹ, xã Thăng An, TP Đà Nẵng",
         mapEmbedUrl:
-            "https://www.google.com/maps?q=16.6798578,107.3362803&z=17&output=embed",
-        mapLink:
-            "https://www.google.com/maps/place/16%C2%B040'47.5%22N+107%C2%B020'10.6%22E/@16.6798578,107.3337054,1041m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d16.6798578!4d107.3362803!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D",
+            "https://www.google.com/maps?q=15.7329444,108.4062222&z=17&output=embed",
+        mapLink: "https://maps.app.goo.gl/o3aa5KhQvEZqN942AD",
     },
     // ISO datetime used for the countdown timer — keep in sync with ceremony fields above
     eventDateTimeISO: "2026-07-21T10:30:00+07:00",
