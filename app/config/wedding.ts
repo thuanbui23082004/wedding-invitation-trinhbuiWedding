@@ -18,7 +18,7 @@ export const weddingConfig = {
         address: "Tổ 7, thôn Hưng Mỹ, xã Thăng An, TP. Đà Nẵng",
     },
     ceremony: {
-        location: "Lễ Vu Quy được cử hành tại tư gia",
+        location: "Lễ Thành Hôn được cử hành tại tư gia",
         time: "09:00",
         weekday: "Thứ Ba",
         day: "21",
