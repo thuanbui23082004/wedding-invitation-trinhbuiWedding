@@ -39,7 +39,7 @@ export const weddingConfig = {
         mapLink: "https://maps.app.goo.gl/o3aa5KhQvEZqN942AD",
     },
     // ISO datetime used for the countdown timer — keep in sync with ceremony fields above
-    eventDateTimeISO: "2026-07-21T10:30:00+07:00",
+    eventDateTimeISO: "2026-07-19T10:30:00+07:00",
     schedule: [
         { time: "10:30", label: "Đón khách" },
         { time: "11:00", label: "Khai tiệc" },

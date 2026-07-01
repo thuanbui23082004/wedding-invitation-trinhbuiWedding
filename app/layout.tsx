@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         title: "Thiệp cưới Long Vũ & Thu Hiền",
         description:
             "Trân trọng kính mời bạn đến chung vui cùng gia đình chúng tôi.",
-        images: ["/images/hero.jpg"],
+        images: ["/images/aVUQ_8724.jpg"],
     },
 };
 
