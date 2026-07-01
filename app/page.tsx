@@ -58,7 +58,7 @@ export default function Home() {
                         <CountdownCalendar />
                         <DressCodeSchedule />
                         <GuestbookForm />
-                        <RedEnvelope />
+                        {/* <RedEnvelope /> */}
                         <Footer />
                         <MusicPlayer />
                     </div>

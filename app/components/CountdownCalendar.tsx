@@ -165,12 +165,13 @@ export default function CountdownCalendar() {
                     {reception.venueName}
                 </p>
 
-                <div className="relative mx-auto mt-5 h-48 max-w-sm overflow-hidden rounded-xl border border-gold/40 sm:h-56">
+                <div className=" map-wrapperrelative mx-auto mt-5 h-48 max-w-sm overflow-hidden rounded-xl border border-gold/40 sm:h-56">
                     <iframe
                         src={reception.mapEmbedUrl}
                         className="h-full w-full"
                         style={{ border: 0 }}
                         loading="lazy"
+                        allowFullScreen
                         referrerPolicy="no-referrer-when-downgrade"
                         title="Bản đồ địa điểm tổ chức tiệc cưới"
                     />

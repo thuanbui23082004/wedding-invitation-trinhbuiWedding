@@ -90,3 +90,14 @@ input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+.map-wrapper {
+    isolation: isolate;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x pan-y pinch-zoom;
+}
+
+.map-wrapper iframe {
+    touch-action: pan-x pan-y pinch-zoom;
+    pointer-events: auto;
+}
