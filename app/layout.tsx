@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "/images/aVUQ_8724.jpg",
+                url: "/images/hero.jpg",
                 width: 1200,
                 height: 630,
                 alt: "Thiệp cưới Long Vũ & Thu Hiền",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
         title: "Thiệp cưới Long Vũ & Thu Hiền",
         description:
             "Trân trọng kính mời bạn đến chung vui cùng gia đình chúng tôi.",
-        images: ["/images/aVUQ_8724.jpg"],
+        images: ["/images/hero.jpg"],
     },
 };
 
