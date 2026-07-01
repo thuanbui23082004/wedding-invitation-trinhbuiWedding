@@ -90,7 +90,7 @@ export default function HeroBanner() {
 
                         {/* Couple photo */}
                         <image
-                            href="/images/VUQ_7612.jpg"
+                            href="/images/VUQ_8692.jpg"
                             x="0"
                             y="0"
                             width="754"
